@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     #myapp
     "cat_wallet",
     "cat_user",
+    "cat_base",
 ]
 
 MIDDLEWARE = [
@@ -59,7 +60,7 @@ ROOT_URLCONF = 'cat_traider.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        "DIRS": [BASE_DIR / "templates"],
+        "DIRS": [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
